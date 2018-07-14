@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Phone Details</string>
+    <string name="imei">"IMEI : "</string>
+</resources>

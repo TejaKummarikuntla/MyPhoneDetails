@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:id="@+id/linLayoutid"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/iStartButton"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="0dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:onClick="start"
+        android:text="Get info"
+        />
+
+
+    <TextView
+        android:id="@+id/iTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:textStyle="bold"
+        android:gravity="start"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
